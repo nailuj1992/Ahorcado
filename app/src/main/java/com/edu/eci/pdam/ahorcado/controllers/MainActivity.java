@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
             Intent juego = new Intent(this, JuegoActivity.class);
             juego.putExtra(EXTRA_MESSAGE_USER, usuario);
             startActivity(juego);
+            finish();
         }
     }
 }

@@ -72,7 +72,7 @@ public class JuegoActivity extends AppCompatActivity {
         usuario.setPuntaje(ahorcado.score);
 
         // https://developer.android.com/training/basics/data-storage/shared-preferences.html#WriteSharedPreference
-        SharedPreferences sharedPref = getPreferences(Context.MODE_PRIVATE);
+        SharedPreferences sharedPref = getSharedPreferences(getString(R.string.app_name), Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = sharedPref.edit();
         editor.putInt(getString(R.string.saved_score), usuario.getPuntaje());
         editor.putString(getString(R.string.saved_name), usuario.getNombre());
@@ -80,6 +80,7 @@ public class JuegoActivity extends AppCompatActivity {
         editor.commit();
 
         startActivity(new Intent(this, ScoreActivity.class));
+        finish();
     }
 
     /**

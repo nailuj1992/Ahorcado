@@ -13,4 +13,5 @@
     <string name="saved_state">saved_state</string>
     <string name="txt_titulo">Titulo</string>
     <string name="txt_subtitulo">Subtitulo</string>
+    <string name="txt_volver">Volver a jugar</string>
 </resources>

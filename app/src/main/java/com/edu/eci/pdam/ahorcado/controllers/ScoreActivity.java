@@ -1,9 +1,11 @@
 package com.edu.eci.pdam.ahorcado.controllers;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.TextView;
 
 import com.edu.eci.pdam.ahorcado.R;
@@ -18,7 +20,7 @@ public class ScoreActivity extends AppCompatActivity {
         setContentView(R.layout.activity_score);
 
         // https://developer.android.com/training/basics/data-storage/shared-preferences.html#ReadSharedPreference
-        SharedPreferences sharedPref = getPreferences(Context.MODE_PRIVATE);
+        SharedPreferences sharedPref = getSharedPreferences(getString(R.string.app_name), Context.MODE_PRIVATE);
         int score = sharedPref.getInt(getString(R.string.saved_score), 0);
         String name = sharedPref.getString(getString(R.string.saved_name), "Nombre");
         boolean state = sharedPref.getBoolean(getString(R.string.saved_state), false);
@@ -37,5 +39,11 @@ public class ScoreActivity extends AppCompatActivity {
             txt_titulo.setText("¡Derrota!".toUpperCase());
             txt_subtitulo.setText("Has perdido esta partida :(");
         }
+    }
+
+    public void btnJugarClick(View view) {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+        finish();
     }
 }
