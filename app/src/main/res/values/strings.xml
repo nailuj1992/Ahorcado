@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">WoW-rcado</string>
+    <string name="nombre">Nombre</string>
+    <string name="btn_jugar">Jugar</string>
+    <string name="txt_puntos">Puntos:</string>
+    <string name="puntos_default">#</string>
+    <string name="lbl_intento">Intento # de #</string>
+    <string name="txt_intento">#</string>
+    <string name="lbl_de">De</string>
+    <string name="txt_palabra">Palabra</string>
+    <string name="saved_score">saved_score</string>
+    <string name="saved_name">saved_name</string>
+    <string name="saved_state">saved_state</string>
+    <string name="txt_titulo">Titulo</string>
+    <string name="txt_subtitulo">Subtitulo</string>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="palabras">
+        <item>Avuuna</item>
+        <item>Khadgar</item>
+        <item>Guldan</item>
+        <item>Varian</item>
+        <item>Jaina</item>
+        <item>Sylvanas</item>
+        <item>Illidan</item>
+        <item>Garrosh</item>
+        <item>Alleria</item>
+        <item>Velen</item>
+        <item>Turalyon</item>
+        <item>Maiev</item>
+        <item>Lothar</item>
+        <item>Medivh</item>
+        <item>Aegwynn</item>
+        <item>Sargeras</item>
+        <item>Kiljaeden</item>
+        <item>Archimonde</item>
+        <item>Arthas</item>
+        <item>Nerzhul</item>
+        <item>Alextrazsa</item>
+        <item>Ysera</item>
+        <item>Nozdormu</item>
+        <item>Murozond</item>
+        <item>Malygos</item>
+        <item>Kalecgos</item>
+        <item>Wrathion</item>
+        <item>Alamuerte</item>
+        <item>Krasus</item>
+        <item>Korialstrasz</item>
+        <item>Cromi</item>
+        <item>Chronormu</item>
+        <item>Kairozdormu</item>
+        <item>Kurtalos</item>
+    </string-array>
+</resources>
