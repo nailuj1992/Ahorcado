@@ -14,7 +14,7 @@ import java.io.Serializable;
 
 public class Ahorcado implements Serializable {
 
-    public static final int MAX_TRYS = 30;
+    public static final int MAX_TRYS = 20;
     private static final int ADD_SCORE = 10;
     private static final String MASK_STR = "*";
 
