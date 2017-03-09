@@ -17,6 +17,7 @@ public class Ahorcado implements Serializable {
     public static final int MAX_TRYS = 20;
     private static final int ADD_SCORE = 10;
     private static final String MASK_STR = "*";
+    private static final String SPECIAL_CHARS = " ',;.-_";
 
     private String[] diccionario;
     private String secretWord;
@@ -35,7 +36,11 @@ public class Ahorcado implements Serializable {
 
         String maskedWord = "";
         for (int i = 0; i <= this.secretWord.length() - 1; i++) {
-            maskedWord += MASK_STR;
+            if(!SPECIAL_CHARS.contains("" + secretWord.charAt(i))) {
+                maskedWord += MASK_STR;
+            } else {
+                maskedWord += this.secretWord.charAt(i);
+            }
         }
         this.word = maskedWord;
         this.play = true;

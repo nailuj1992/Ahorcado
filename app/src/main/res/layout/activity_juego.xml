@@ -58,8 +58,8 @@
         android:layout_alignRight="@+id/txt_puntos"
         android:layout_alignStart="@+id/txt_intentos"
         android:layout_below="@+id/txt_intentos"
-        android:layout_marginTop="45dp"
+        android:layout_marginTop="25dp"
         android:text="@string/txt_palabra"
-        android:textColor="@color/textColorPortal"
-        android:textSize="25sp" />
+        android:textColor="@color/textColorWord"
+        android:textSize="20sp" />
 </RelativeLayout>

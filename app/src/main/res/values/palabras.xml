@@ -1,26 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="palabras">
-        <item>Avuuna</item>
-        <item>Khadgar</item>
-        <item>Guldan</item>
-        <item>Varian</item>
-        <item>Jaina</item>
-        <item>Sylvanas</item>
-        <item>Illidan</item>
-        <item>Garrosh</item>
-        <item>Alleria</item>
-        <item>Velen</item>
+        <item>Anacoreta Avuuna, la Luz del Alba</item>
+        <item>Anduin Lothar</item>
+        <item>Magus Medivh</item>
+        <item>Magna Aegwynn</item>
+        <item>Archimago Khadgar</item>
+        <item>Gul\'dan</item>
+        <item>Kilrogg Mortojo</item>
+        <item>Grommash Grito Infernal</item>
+        <item>Garrosh Grito Infernal</item>
+        <item>Ner\'zhul</item>
+        <item>Kargath Garrafilada</item>
+        <item>Durotan de los Lobo Gélido</item>
+        <item>Thrall</item>
+        <item>Vol\'jin</item>
+        <item>Varian Wrynn</item>
+        <item>Jaina Valiente</item>
+        <item>Sylvanas Brisaveloz</item>
+        <item>Vereesa Brisaveloz</item>
+        <item>Alleria Brisaveloz</item>
+        <item>Profeta Velen</item>
         <item>Turalyon</item>
-        <item>Maiev</item>
-        <item>Lothar</item>
-        <item>Medivh</item>
-        <item>Aegwynn</item>
+        <item>Maiev Cantosombrio</item>
         <item>Sargeras</item>
-        <item>Kiljaeden</item>
+        <item>Kil\'jaeden</item>
         <item>Archimonde</item>
-        <item>Arthas</item>
-        <item>Nerzhul</item>
+        <item>Arthas Menethil</item>
         <item>Alextrazsa</item>
         <item>Ysera</item>
         <item>Nozdormu</item>
@@ -28,12 +34,21 @@
         <item>Malygos</item>
         <item>Kalecgos</item>
         <item>Wrathion</item>
-        <item>Alamuerte</item>
+        <item>Deathwing</item>
         <item>Krasus</item>
         <item>Korialstrasz</item>
         <item>Cromi</item>
         <item>Chronormu</item>
         <item>Kairozdormu</item>
-        <item>Kurtalos</item>
+        <item>Kur\'talos Cresta Cuervo</item>
+        <item>Tyrande Susurravientos</item>
+        <item>Malfurion Tempestira</item>
+        <item>Illidan Tempestira</item>
+        <item>Eremita Cho</item>
+        <item>Cho\'gall</item>
+        <item>Emperador Shaohao</item>
+        <item>El conocimiento es poder, pero la clave es usarlo con sabiduria.</item>
+        <item>La paz es la aspiracion mas noble... pero para preservarla, debes estar dispuesto a luchar.</item>
+        <item>Abre bien los ojos y no dejes de aprender.</item>
     </string-array>
 </resources>
